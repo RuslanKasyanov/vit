@@ -7,13 +7,15 @@ import { AlertModule } from 'ng2-bootstrap/ng2-bootstrap';
 import { AppComponent } from './app.component';
 import { PomodoroTimerComponent } from './timer/pomodoro-timer/pomodoro-timer.component';
 import { CountdownComponent } from './timer/countdown/countdown.component';
+import { PomodoroTasksComponent } from './timer/pomodoro-tasks/pomodoro-tasks.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     PomodoroTimerComponent,
     PomodoroTimerComponent,
-    CountdownComponent
+    CountdownComponent,
+    PomodoroTasksComponent
   ],
   imports: [
     BrowserModule,
