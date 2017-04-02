@@ -8,6 +8,7 @@ import { AppComponent } from './app.component';
 import { PomodoroTimerComponent } from './timer/pomodoro-timer/pomodoro-timer.component';
 import { CountdownComponent } from './timer/countdown/countdown.component';
 import { PomodoroTasksComponent } from './timer/pomodoro-tasks/pomodoro-tasks.component';
+import { PomodoreTaskIconsComponent } from './timer/pomodore-task-icons/pomodore-task-icons.component';
 
 @NgModule({
   declarations: [
@@ -15,7 +16,8 @@ import { PomodoroTasksComponent } from './timer/pomodoro-tasks/pomodoro-tasks.co
     PomodoroTimerComponent,
     PomodoroTimerComponent,
     CountdownComponent,
-    PomodoroTasksComponent
+    PomodoroTasksComponent,
+    PomodoreTaskIconsComponent
   ],
   imports: [
     BrowserModule,
