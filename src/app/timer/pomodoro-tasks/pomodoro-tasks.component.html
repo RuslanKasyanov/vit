@@ -13,12 +13,11 @@
         <span *ngFor="let queredTask of tasks">
           <app-pomodore-task-icons
             [task]="queredTask"
-            [size]="50"
-            (mouseover)="tooltip.innerText = queredTask.name"
-            (mouseout)="tooltip.innerText = 'Mouseover for details'"></app-pomodore-task-icons>
+            [taskTooltip]="tooltip"
+            [size]="50"></app-pomodore-task-icons>
         </span>
       </p>
-      <p #tooltip *ngIf="queuedPomodoros > 0">Mouse for details</p>
+      <p #tooltip>Mouse for details</p>
     </div>
     <h4>Tasks backlog</h4>
     <table class="table">
