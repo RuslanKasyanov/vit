@@ -1,7 +1,7 @@
 import {Directive, Input, HostListener} from '@angular/core';
 
 @Directive({
-  selector: '[appTask]'
+  selector: '[task]'
 })
 export class TaskDirective {
 
