@@ -10,6 +10,7 @@ import { CountdownComponent } from './timer/countdown/countdown.component';
 import { PomodoroTasksComponent } from './timer/pomodoro-tasks/pomodoro-tasks.component';
 import { PomodoreTaskIconsComponent } from './timer/pomodore-task-icons/pomodore-task-icons.component';
 import { TaskDirective } from './timer/task.directive';
+import { QueuedOnlyPipe } from './shared/pipes/queued-only.pipe';
 
 @NgModule({
   declarations: [
@@ -19,7 +20,8 @@ import { TaskDirective } from './timer/task.directive';
     CountdownComponent,
     PomodoroTasksComponent,
     PomodoreTaskIconsComponent,
-    TaskDirective
+    TaskDirective,
+    QueuedOnlyPipe
   ],
   imports: [
     BrowserModule,
