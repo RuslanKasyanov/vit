@@ -1,7 +1,7 @@
 /**
  * Created by ruslan on 08.04.17.
  */
-interface Queuable {
+interface Queueable {
   queued: boolean;
 }
-export default Queuable;
+export default Queueable;

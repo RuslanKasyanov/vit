@@ -11,6 +11,7 @@ import { PomodoroTasksComponent } from './timer/pomodoro-tasks/pomodoro-tasks.co
 import { PomodoreTaskIconsComponent } from './timer/pomodore-task-icons/pomodore-task-icons.component';
 import { TaskDirective } from './timer/task.directive';
 import { QueuedOnlyPipe } from './shared/pipes/queued-only.pipe';
+import { FormattedTimePipe } from './shared/pipes/formatted-time.pipe';
 
 @NgModule({
   declarations: [
@@ -21,7 +22,8 @@ import { QueuedOnlyPipe } from './shared/pipes/queued-only.pipe';
     PomodoroTasksComponent,
     PomodoreTaskIconsComponent,
     TaskDirective,
-    QueuedOnlyPipe
+    QueuedOnlyPipe,
+    FormattedTimePipe
   ],
   imports: [
     BrowserModule,
