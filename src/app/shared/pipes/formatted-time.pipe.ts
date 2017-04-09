@@ -5,8 +5,10 @@ import { Pipe, PipeTransform } from '@angular/core';
 })
 export class FormattedTimePipe implements PipeTransform {
 
-  transform(value: any, args?: any): any {
-    return null;
+  transform(totalMinutes: number): string {
+    const minutes: number =  totalMinutes % 60;
+    const hours: number = Math.floor(totalMinutes / 60);
+    return  `${hours}h: ${minutes}m`;
   }
 
 }
