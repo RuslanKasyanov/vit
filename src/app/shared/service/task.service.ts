@@ -2,7 +2,7 @@ import { Injectable } from '@angular/core';
 import {Task} from '../shared';
 
 @Injectable()
-export class TaskService {
+export default class TaskService {
 public taskStore: Task[] = [];
 
   constructor() {

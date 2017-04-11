@@ -1,9 +1,9 @@
 import { Pipe, PipeTransform } from '@angular/core';
 
 @Pipe({
-  name: 'formattedTime'
+  name: 'FormattedTimePipe'
 })
-export class FormattedTimePipe implements PipeTransform {
+export default class FormattedTimePipe implements PipeTransform {
 
   transform(totalMinutes: number): string {
     const minutes: number =  totalMinutes % 60;

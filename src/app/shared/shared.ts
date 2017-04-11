@@ -3,10 +3,20 @@
  */
 import Queueable from './interffaces/queuable';
 import Task from './interffaces/Task';
-import Settings from './service/settings.service';
+
+import FormattedTimePipe from './pipes/formatted-time.pipe';
+import QueuedOnlyPipe from './pipes/queued-only.pipe';
+
+import TaskService from './service/task.service';
+import SettingsService from './service/settings.service';
 
 export {
   Queueable,
   Task,
-  Settings
+
+  FormattedTimePipe,
+  QueuedOnlyPipe,
+
+  TaskService,
+  SettingsService
 };
