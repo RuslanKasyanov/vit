@@ -1,20 +1,20 @@
 import { async, ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { PomodoreTaskIconsComponent } from './pomodore-task-icons.component';
+import { TimerWidgetComponent } from './timer-widget.component';
 
-describe('PomodoreTaskIconsComponent', () => {
-  let component: PomodoreTaskIconsComponent;
-  let fixture: ComponentFixture<PomodoreTaskIconsComponent>;
+describe('TimerWidgetComponent', () => {
+  let component: TimerWidgetComponent;
+  let fixture: ComponentFixture<TimerWidgetComponent>;
 
   beforeEach(async(() => {
     TestBed.configureTestingModule({
-      declarations: [ PomodoreTaskIconsComponent ]
+      declarations: [ TimerWidgetComponent ]
     })
     .compileComponents();
   }));
 
   beforeEach(() => {
-    fixture = TestBed.createComponent(PomodoreTaskIconsComponent);
+    fixture = TestBed.createComponent(TimerWidgetComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
   });
